@@ -1,0 +1,21 @@
+{
+  "app_short_name": "AniQ",
+  "install": "Install",
+  "quote": {
+    "anime": "Anime:",
+    "character": "Character:",
+    "quote": "Quote:"
+  },
+  "get_quote": "Get an Anime quote!",
+  "getting_quote": "Getting a new quote...",
+  "notification": {
+    "install_failed": "Installation failed!",
+    "install_succeed" : "Cool, the app is being installed!",
+    "install_denied": "That's a pity! the app won't be installed :(",
+    "get_quote_failed": "Failed to get a new quote!"
+  },
+  "alert": {
+    "no_quote": "No Anime quote to be displayed :(",
+    "no_connection": "You are offline and seeing the last cached Anime quote!"
+  }
+}

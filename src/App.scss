@@ -1,0 +1,60 @@
+// @import "~antd/dist/antd.css";
+@import "./main.css";
+
+%button {
+  height: 40px;
+  font-size: 16px;
+}
+
+.App {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  grid-template-rows: auto 1fr auto;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.App-header {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .ant-page-header {
+    width: 100%;
+    padding: 12px;
+    margin: 0px;
+  }
+
+  .ant-image {
+    width: 50%;
+    max-width: 600px;
+  }
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+   text-align: justify;
+  text-justify: inter-word;
+}
+
+.App-footer {
+  display: flex;
+  justify-content: center;
+
+  .ant-btn {
+    @extend %button;
+  }
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 12px;
+}
