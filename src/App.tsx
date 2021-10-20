@@ -134,7 +134,7 @@ function App() {
             ]
           }
         />
-        <Image preview={false} src={aniq} alt={t("alt_aniq_logo")} />
+        <Image preview={false} src={aniq} alt={t("alt.aniq_logo")} />
       </div>
       <div className="App-content">
         {gettingQuote ? <Skeleton /> : QuoteContent({ quote, t })}
